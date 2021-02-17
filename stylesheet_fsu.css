@@ -1,0 +1,64 @@
+/* FSU specific styles */
+
+.container_fsu {
+    margin: 1em 1em;
+    max-width: 1024px;
+}
+
+.container_fsu>div:not(:last-child) {
+    padding-bottom: 2em;
+}
+
+.news_and_highlights_fsu li {
+    margin: 0px;
+    padding: 0px 0px 0.1em;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+}
+
+.research_overview_fsu p,
+.research_overview_fsu li {
+    text-align: justify;
+}
+
+.research_overview_fsu ol {
+    list-style-type: upper-alpha;
+}
+
+.video_fsu {
+    position: relative;
+    padding-top: 56.26%;
+}
+
+.video_fsu iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+}
+
+.page_last_updated_fsu {
+    text-align: justify;
+}
+
+.carousel_fsu {
+    width: 100%;
+}
+
+.carousel_fsu .carousel-indicators li:not(.active) {
+    background-color: rgba(200, 200, 200, 0.5) !important;
+}
+
+.carousel_fsu .carousel-indicators li.active {
+    background-color: rgba(200, 200, 200, 0.9) !important;
+}
+
+.carousel_fsu img {
+    object-fit: contain;
+    height: 23vw !important;
+    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+}
