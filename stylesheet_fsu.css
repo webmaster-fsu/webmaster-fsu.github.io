@@ -67,8 +67,14 @@
     table-layout: fixed;
 }
 
+.fsu_table th {
+    background-color: rgb(136, 70, 70);
+}
+
 .fsu_table th,
 td {
     max-width: 100px;
     white-space: pre-wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
