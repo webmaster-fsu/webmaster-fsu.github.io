@@ -67,7 +67,7 @@
     table-layout: fixed;
 }
 
-.fsu_table thead {
+.fsu_table th {
     background-color: plum;
 }
 
