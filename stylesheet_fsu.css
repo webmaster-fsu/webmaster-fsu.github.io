@@ -68,7 +68,8 @@
 }
 
 .fsu_table th {
-    background-color: rgb(136, 70, 70);
+    background: rgb(136, 70, 70);
+    bgcolo
 }
 
 .fsu_table th,
