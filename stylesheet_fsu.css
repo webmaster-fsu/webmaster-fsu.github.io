@@ -67,6 +67,10 @@
     table-layout: fixed;
 }
 
+.fsu_table th {
+    background-color: LightCoral;
+}
+
 .fsu_table th,
 td {
     max-width: 100px;
