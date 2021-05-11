@@ -67,7 +67,7 @@
     table-layout: fixed;
 }
 
-.fsu_table th {
+.fsu_table thead {
     color: rgb(136, 70, 70);
 }
 
