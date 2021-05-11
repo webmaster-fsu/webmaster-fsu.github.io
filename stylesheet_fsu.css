@@ -67,16 +67,10 @@
     table-layout: fixed;
 }
 
-.fsu_table th {
+.fsu_table th,
+td {
     max-width: 100px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-}
-
-.fsu_table td {
-    max-width: 100px;
-    white-space: nowrap;
+    white-space: pre-wrap;
     text-overflow: ellipsis;
     overflow: hidden;
 }
